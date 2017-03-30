@@ -11,4 +11,8 @@ node {
         }
     }
 
+    stage("Fingerprinting") {
+        fingerprint ''
+    }
+
 }
